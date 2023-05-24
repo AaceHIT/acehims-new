@@ -1,0 +1,10 @@
+img.ao-loader {
+  height: 48px;
+  border: 0;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+#medicalAreaEdit {
+  display: none;
+}

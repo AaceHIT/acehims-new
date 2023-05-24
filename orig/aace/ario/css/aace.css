@@ -1,0 +1,125 @@
+body {
+  font-size: 0.8em;
+}
+a.logo {
+  font-weight: bold;
+  color: #8557d7;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+a.logo::before {
+  content: url("/aace/image/logo/icon.png");
+  width: 42px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  a.logo::before {
+    content: url("/aace/image/logo/aace.png");
+    width: 98px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  a.logo::before {
+    content: url("/aace/image/logo/logo.png");
+    width: 162px;
+  }
+}
+
+.sidebar-nav .metismenu ul li {
+  border-bottom: 1px dotted #d0b9f8;
+}
+
+.ao-section-title {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: #d0b9f8;
+  color: #8557d7;
+  text-shadow: 0 1px 1px #e5e2ec;
+}
+
+.ao-btn {
+  min-width: 130px;
+}
+
+.form-floating > textarea.form-control {
+  height: 100%;
+}
+
+img#signaturePreview {
+  max-height: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+img#photoPreview {
+  height: 220px;
+  max-width: 100%;
+  width: auto;
+  /* border: 1px solid rgba(208, 185, 248, 0.46); */
+}
+
+/* CUSTOM AO STYLE */
+.ao-text-header {
+  color: #8557d7;
+  padding-bottom: 4px;
+  padding: 4px 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ao-section-separator {
+  border-bottom: 1px dashed rgba(208, 185, 248, 0.7);
+}
+
+#CameraView {
+  width: 300px;
+  height: 220px;
+  /* border: 1px solid rgba(208, 185, 248, 0.46); */
+}
+
+img.ao-photo-list {
+  width: 46px;
+  max-height: 50px;
+  height: auto;
+}
+
+img.ao-photo-medium {
+  width: 140px;
+  /* max-height: 160px; */
+  height: auto;
+}
+
+
+
+/* BEGIN CUSTOM AUTO-COMPLETE */
+.autocomplete {
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.autocomplete ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.autocomplete li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.autocomplete li:hover {
+  background-color: #f1f1f1;
+}

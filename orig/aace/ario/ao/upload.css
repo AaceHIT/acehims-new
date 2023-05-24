@@ -1,0 +1,16 @@
+/*** Tydi - Description » Tydi™ Framework © 2023 ∞ AO™ • @iamodao • www.osawere.com ∞ Apache License ***/
+
+#photoFilePreview,
+#cameraPreview {
+  max-width: 100%;
+  height: 240px;
+  width: auto;
+  border: 1px solid rgba(208, 185, 248, 0.46);
+}
+
+#takeShot,
+#cameraPreview,
+#useGalleryBtn,
+#savePhotoBtn {
+  display: none;
+}

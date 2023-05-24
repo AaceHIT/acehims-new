@@ -1,0 +1,1 @@
+<h6 class="mb-4 mt-4 small ao-text-header">Photo Information</h6>
